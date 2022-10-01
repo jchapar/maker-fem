@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Headerdesktop from './components/Headerdesktop';
+import Details from './components/Details';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Header />
       <Headerdesktop />
+      <Details />
     </div>
   );
 }

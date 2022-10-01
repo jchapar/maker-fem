@@ -6,13 +6,13 @@ import scrollIcon from '../assets/icon-scroll.svg';
 
 const Headerdesktop = () => {
   return (
-    <div className='w-full'>
-      <div className='hidden md:grid grid-cols-4'>
+    <div className='w-full overflow-hidden lg:mb-10'>
+      <div className='hidden md:grid grid-cols-4 gap-10 mx-auto'>
         <img src={heroLeft} alt='Mobile Hero' className='hidden md:block' />
         <img src={heroSquiggle} alt='Mobile Hero' className='hidden md:block col-span-2 mx-auto' />
         <img src={heroRight} alt='Mobile Hero' className='hidden md:block' />
       </div>
-      <div className='hidden md:flex flex-col items-center justify-center py-8 px-4 md:mt-[-350px]'>
+      <div className='hidden md:flex flex-col items-center justify-center py-8 px-4 md:mt-[-350px] lg:mt-[-400px]'>
         <h1 className='text-[40px] lg:text-[48px] text-center text-white font-bold max-w-md lg:max-w-lg'>
           Get paid for the work you <span className='text-tealColor'>love</span> to do.
         </h1>
