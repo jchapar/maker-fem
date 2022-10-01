@@ -1,7 +1,13 @@
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Headerdesktop from './components/Headerdesktop';
+
 function App() {
   return (
-    <div className='bg-red-900'>
-      <h1>Hello</h1>
+    <div>
+      <Navbar />
+      <Header />
+      <Headerdesktop />
     </div>
   );
 }
