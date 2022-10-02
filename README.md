@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View Github Code](https://github.com/jchapar/maker-fem)
-- Live Site URL: [Visit Site](https://jchapar.github.io/ToDo_FEM)
+- Live Site URL: [Visit Site](https://gilded-kitsune-c0532d.netlify.app/)
 
 ## My process
 
