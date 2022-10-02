@@ -7,3 +7,15 @@
 body {
   background-color: #080c20;
 }
+
+.input-error {
+  @apply bg-blueColor text-grayColor py-3 px-4 w-full rounded-full text-[15px] font-extrabold focus:outline-none md:max-w-[350px] border border-pinkColor;
+}
+
+.input-normal {
+  @apply bg-blueColor text-grayColor py-3 px-4 w-full rounded-full text-[15px] font-extrabold focus:outline-none md:max-w-[350px] border;
+}
+
+button:disabled {
+  opacity: 0.35;
+}
